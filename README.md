@@ -10,6 +10,7 @@ also how to override defaults and specify layouts on the action level.
 ## The Default Layout
 
 1. Make a new controller called `StaticController`.
+   rails g controller Static --no-test-framework --no-helper 
 
 2. Create a home view with an `h2` that says "Welcome to Flatiron Widgets" and a
    new action in `StaticController` called `home`.
@@ -21,6 +22,7 @@ also how to override defaults and specify layouts on the action level.
 ## Custom Layouts for a Controller
 
 1. Create a new controller called `StoreAdminController`.
+   rails g controller StoreAdmin --no-test-framework --no-helper 
 
 2. We want this controller to use a new layout called `admin`. This layout
    should have an `h1` that says "Flatiron Widgets: Admin".
